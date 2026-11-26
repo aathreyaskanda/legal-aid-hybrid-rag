@@ -1,8 +1,3 @@
-Good catch—the nested triple backticks (`````) inside the previous response broke the outer Markdown block, so copying it cut off the file partway through.
-
-Below is the complete `README.md` wrapped in a 4-backtick block so the **Copy** button grabs the entire file intact, with a cleaner Table of Contents where every link matches a section in the file.
-
-```markdown
 # Legal Aid Hybrid RAG (India Focus)
 
 A Hybrid Retrieval-Augmented Generation (RAG) legal assistant focused on **Indian law**. Built with **Streamlit**, **Neo4j**, **SentenceTransformers**, **SerpAPI / DuckDuckGo**, and **Groq**, the application combines semantic knowledge-graph retrieval (with 1-hop neighbor expansion) and live web search to produce structured, citation-backed legal guidance—and lets users dynamically expand the Neo4j knowledge graph with newly extracted legal triples.
@@ -187,5 +182,3 @@ streamlit run finalapp.py
 ## Disclaimer
 
 This project is intended for **educational and informational purposes only** and does not constitute legal advice. For legal representation or official guidance, consult a qualified advocate or contact your nearest Legal Services Authority (NALSA / SLSA / DLSA).
-
-```
