@@ -1,0 +1,10 @@
+# virtualenv
+.venv/
+__pycache__/
+*.pyc
+*.sqlite
+.env
+data/raw/
+data/texts/
+logs/
+*.log
